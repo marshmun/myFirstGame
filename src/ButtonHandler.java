@@ -38,7 +38,7 @@ public class ButtonHandler extends KeyAdapter {
                     Instances.player.setLeft(false);
                     System.out.println(" Released Left! ");
                         break;
-                case KeyEvent.VK_RIGHT;
+                case KeyEvent.VK_RIGHT:
                     Instances.player.setRight(false);
                     System.out.println(" Released Right! ");
                         break;

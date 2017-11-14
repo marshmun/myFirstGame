@@ -46,5 +46,7 @@ public class Draw {
     }
     protected void render(Graphics2D g){
         //Here we will render everything
+        g.setColor(Color.white);
+        g.fillRect(Instances.player.getX(), Instances.player.getY(), 15,15);
     }
 }
